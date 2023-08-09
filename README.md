@@ -12,10 +12,10 @@
 - Clone the repo
 - Open the repo's local folder
 - `npm install` to install the dependencies
-- Perform Edits
+- Perform edits
 - `npm run dev` to run the website locally to test
 - `npm run build` to build the distribution files
-- Copy the contents of the dist server to the `public_html` folder in the hosting service
+- Copy the contents of the `dist` folder to the `public_html` folder in the hosting service
 - Push any changes back to the repo
 
 ## Minor  Edits
