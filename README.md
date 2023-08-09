@@ -19,4 +19,5 @@
 - Push any changes back to the repo
 
 ## Minor  Edits
-Edits to just the *Perfomers* and *Gigs* sections can be made by simply editing the `performers.json` and `gigs.json` files respectively.
+Edits to just the *Perfomers* and *Gigs* sections can be made by simply editing the `performers.json` and `gigs.json` files 
+respectively on the hosting service without making any code changes to the repo.
