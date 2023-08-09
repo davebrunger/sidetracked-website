@@ -1,0 +1,70 @@
+[
+    {
+        "name": "QE Summer Fête",
+        "imageUrl": "./QEGS.jpg",
+        "properties": [
+            {
+                "key": "Location",
+                "value": {
+                    "type": "text",
+                    "value": "Queen Elizabeth's Grammar School, Faversham, Kent"
+                }
+            },
+            {
+                "key": "Date",
+                "value": {
+                    "type": "date",
+                    "value": "2023-07-01"
+                }
+            },
+            {
+                "key": "Time",
+                "value": {
+                    "type": "text",
+                    "value": "15:00 - 15:30"
+                }
+            },
+            {
+                "key": "Information",
+                "value": {
+                    "type": "link",
+                    "value": "http://www.queenelizabeths.kent.sch.uk/"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Faversham Hop Festival",
+        "imageUrl": "./Faversham_Market.jpg",
+        "properties": [
+            {
+                "key": "Location",
+                "value": {
+                    "type": "text",
+                    "value": "Market Square Stage, Faversham, Kent"
+                }
+            },
+            {
+                "key": "Date",
+                "value": {
+                    "type": "date",
+                    "value": "2023-09-02"
+                }
+            },
+            {
+                "key": "Time",
+                "value": {
+                    "type": "text",
+                    "value": "13:00 - 13:45"
+                }
+            },
+            {
+                "key": "Information",
+                "value": {
+                    "type": "link",
+                    "value": "https://www.favershamhopfestival.org"
+                }
+            }
+        ]
+    }
+]

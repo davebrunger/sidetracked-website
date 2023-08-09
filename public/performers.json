@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Jack",
+        "instruments": [
+            "Bass",
+            "Vocals",
+            "Guitar"
+        ],
+        "imageUrl": "./Jack.jpg"
+    },
+    {
+        "name": "Noah R.",
+        "instruments": "Guitar",
+        "imageUrl": "./Noah1.jpg"
+    },
+    {
+        "name": "Jasper",
+        "instruments": "Drums",
+        "imageUrl": "./Jasper.jpg"
+    },
+    {
+        "name": "Ella",
+        "instruments": "Vocals",
+        "imageUrl": "./Ella.jpg"
+    },
+    {
+        "name": "Noah W.",
+        "instruments": "Keyboards",
+        "imageUrl": "./Noah2.jpg"
+    }
+]
