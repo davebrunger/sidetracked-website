@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import Band from "/Band.jpg?url";
-import Sidetracked from "/Sidetracked.png?url";
+import Band from "/images/Band.jpg?url";
+import Sidetracked from "/images/Sidetracked.png?url";
 import { Gigs } from './components/Gigs';
 import { Performers } from './components/Performers';
 import "./App.css"

@@ -1,7 +1,7 @@
 [
     {
         "name": "QE Summer Fête",
-        "imageUrl": "./QEGS.jpg",
+        "imageUrl": "/images/QEGS.jpg",
         "properties": [
             {
                 "key": "Location",
@@ -35,7 +35,7 @@
     },
     {
         "name": "Faversham Hop Festival",
-        "imageUrl": "./Faversham_Market.jpg",
+        "imageUrl": "/images/Faversham_Market.jpg",
         "properties": [
             {
                 "key": "Location",

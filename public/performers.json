@@ -6,26 +6,26 @@
             "Vocals",
             "Guitar"
         ],
-        "imageUrl": "./Jack.jpg"
+        "imageUrl": "/images/Jack.jpg"
     },
     {
         "name": "Noah R.",
         "instruments": "Guitar",
-        "imageUrl": "./Noah1.jpg"
+        "imageUrl": "/images/Noah1.jpg"
     },
     {
         "name": "Jasper",
         "instruments": "Drums",
-        "imageUrl": "./Jasper.jpg"
+        "imageUrl": "/images/Jasper.jpg"
     },
     {
         "name": "Ella",
         "instruments": "Vocals",
-        "imageUrl": "./Ella.jpg"
+        "imageUrl": "/images/Ella.jpg"
     },
     {
         "name": "Noah W.",
         "instruments": "Keyboards",
-        "imageUrl": "./Noah2.jpg"
+        "imageUrl": "/images/Noah2.jpg"
     }
 ]
