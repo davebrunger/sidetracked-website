@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import { Image } from "./Image";
 import { Gig as GigModel, GigProperty as GigPropertyModel } from "../models/Gig";
@@ -38,9 +37,13 @@ function GigProperty(props : {readonly gigProperty: GigPropertyModel}) {
     }
 }
 
-export function Gig(props: GigModel & React.HTMLAttributes<HTMLDivElement>) {
+type Props = GigModel & {
+    readonly style? : React.CSSProperties;
+};
+
+export function Gig(props: Props) {
     return (
-        <Card {...props} className="rounded-0 text-bg-light" border="secondary">
+        <Card className="rounded-0 text-bg-light" border="secondary" style={props.style} >
             <Row className="g-0">
                 <Col xs={4} md={3} lg={2}>
                     <Image url={props.imageUrl} className="img-fluid gig-image" heightPct={100}/>

@@ -1,7 +1,8 @@
 import * as React from "react";
 import "./Image.css"
 
-type Props = React.HTMLAttributes<HTMLDivElement> & {
+type Props = {
+    readonly className? : string;
     readonly url: string;
     readonly heightRem?: number;
     readonly heightPct?: number;
@@ -12,14 +13,20 @@ type Props = React.HTMLAttributes<HTMLDivElement> & {
 
 export function Image(props: Props) {
     const style: React.CSSProperties = {
-        ...props.style,
-        height: props.heightRem ? `${props.heightRem}rem` : (props.heightPct ? `${props.heightPct}%` : undefined),
-        width: props.widthRem ? `${props.widthRem}rem` : (props.widthPct ? `${props.widthPct}%` : undefined),
-        backgroundImage: `url(${props.url})`,
-        borderRadius : props.circle ? "50%" : undefined
+        backgroundImage: `url("${props.url}")`,
     };
 
+    if (props.heightRem || props.heightPct) {
+        style.height = props.heightRem ? `${props.heightRem}rem` : `${props.heightPct}%`;
+    }
+    if (props.widthRem || props.widthPct) {
+        style.height = props.widthRem ? `${props.widthRem}rem` : `${props.widthPct}%`;
+    }
+    if (props.circle) {
+        style.borderRadius = "50%";
+    }
+
     return (
-        <div {...props} className="stretched-centered-image" style={style} />
+        <div className={`${props.className ? props.className : ""} stretched-centered-image`} style={style} />
     );
 }

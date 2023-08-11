@@ -4,6 +4,7 @@ import Sidetracked from "/images/Sidetracked.png?url";
 import { Gigs } from './components/Gigs';
 import { Performers } from './components/Performers';
 import "./App.css"
+import { Carousel } from './components/Carousel';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Nav.Link href="#performers">Performers</Nav.Link>
               <Nav.Link href="#gigs">Gigs</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#gallery">Gallery</Nav.Link>
               <Nav.Link href="#contact">Contact & Social</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -37,8 +39,12 @@ function App() {
         </h2>
         <p className="text-center">
           Sidetracked are a group of friends that started jamming and performing together at school in Faversham.
-          Still at school they are now performing at local festivals.
+          Still at school, they are now performing at local festivals.
         </p>
+        <h2 className="text-center" id="gallery">
+          Gallery
+        </h2>
+        <Carousel heightRemXs={20} heightRemSm={25} heightRemMd={35} heightRemLg={40} heightRemXl={45} heightRemXxl={55} imageUrlPattern="/images/Gallery (*).jpg" name="gallery"/>
         <h2 className="text-center" id="contact">
           Contact & Social
         </h2>
@@ -46,7 +52,7 @@ function App() {
           <i className="bi bi-instagram"></i>{' '}<a href="https://instagram.com/sidetracked_bnd" target='_blank'>@sidetracked_bnd</a>
         </div>
         <div className="text-center">
-          <i className="bi bi-envelope-open-fill"></i>{' '}<a href="mailto:contact@sidetrackedtheband.com">contact@sidetrackedtheband.com</a>
+          <i className="bi bi-envelope-open-fill"></i>{' '}<a href="mailto:contact@sidetrackedbnd.uk">contact@sidetrackedbnd.uk</a>
         </div>
       </Container >
       <Navbar bg="light" className="sticky-bottom">
