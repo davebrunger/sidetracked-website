@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import Band from "/images/Band.jpg?url";
 import Sidetracked from "/images/Sidetracked.png?url";
 import { Gigs } from './components/Gigs';
@@ -19,6 +19,7 @@ function App() {
               <Nav.Link href="#gigs">Gigs</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#gallery">Gallery</Nav.Link>
+              <Nav.Link href="https://sidetracked-bnd.teemill.com">Merch</Nav.Link>
               <Nav.Link href="#contact">Contact & Social</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -30,6 +31,12 @@ function App() {
           <img src={Sidetracked} style={{ width: "100%", maxWidth: "700px" }} />
         </div>
         <Performers id="performers" />
+        <h2 className="text-center">
+          Merch
+        </h2>
+        <p className="text-center">
+          Visit our <a href="https://sidetracked-bnd.teemill.com">Teemill</a> store to help support the band by buying some great merch!
+        </p>
         <h2 className="text-center" id="gigs">
           Gigs
         </h2>
